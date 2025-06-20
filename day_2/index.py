@@ -49,3 +49,10 @@ print(bmi)  #30.85399449035813
 print(int(bmi))  #30   flooring
 print(round(bmi)) #31   rounding
 print(round(bmi,2))  #30.85
+
+if(bmi < 18.5):
+    print("underweight")
+elif bmi >= 18.5 and bmi <25:
+    print("normal weight")
+else:
+   print("overweight")
