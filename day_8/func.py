@@ -3,3 +3,4 @@ def greeting(name, location):
   
 
 greeting("alex", "china")
+greeting(location="africa", name="sunil")
