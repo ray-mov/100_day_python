@@ -1,0 +1,19 @@
+Q1) Which of the following is a feature of DocString?
+  Provide a convenient way of associating documentation with Python modules, functions, classes, and methods
+  All functions should have a docstring
+  Docstrings can be accessed by the __doc__ attribute on objects
+  All of the mentioned   *
+
+  def greet():
+    """This function says hello."""
+    return "Hello"
+
+  print(greet.__doc__)
+
+Q2) Does Lambda contains return statements?
+    TRUE
+    FALSE  *
+
+    A lambda is an anonymous function that implicitly returns the result of the single expression provided
+    f = lambda x: x * 2
+    print(f(5))  # Output: 10
