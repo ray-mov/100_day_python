@@ -18,14 +18,14 @@ while(bidders):
    bidders = False
 
 
-max = 0
+highest_bid = 0
 winner_name = ""
 
 for key in auction_bids:
-   if auction_bids[key] > max:
-      max =  auction_bids[key]
+   if auction_bids[key] > highest_bid:
+      highest_bid =  auction_bids[key]
       winner_name = key
 
 print(auction_bids)
 
-print(f"Congraulation {winner_name} you won the bid with amount {max}")
+print(f"Congraulation {winner_name} you won the bid with amount {highest_bid}")
