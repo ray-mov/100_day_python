@@ -3,6 +3,8 @@ my_disc = {
   "r" :0
 }
 
+for a,b in my_disc.items():
+  print(f" {a} : {b}")
 
 
 print(my_disc)
